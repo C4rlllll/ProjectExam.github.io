@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e6f2ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Relief", system-ui;
+}
+
+.navbar {
+    background-color: #5fa2fa; 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.nav-logo {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.groupLogo {
+    color: black;
+    font-size: 20px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.navlink {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 9999px; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navlink:hover {
+    background-color: #03779e; 
+    color: white;
+}
+
+.header {
+    background-color: #5fa2fa;
+    padding: 15px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .groupLogo {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .aboutUS{
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .aboutUS h1 {
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 40px;
+  }
+  
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .member-card {
+    background-color: #d6ecff;
+    border-radius: 12px;
+    width: 200px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .member-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .member-card h3 {
+    color: #003366;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .member-card p {
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.4;
+  }
+
+.reference{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    background-color: #eef3f8;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.reference div {
+    flex: 1;
+    min-width: 300px;
+}
+
+.reference{
+    background-color: #eef3f8;
+    padding: 60px 20px;
+    text-align: center;
+    height: fit-content;
+}
+
+.reference h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.font{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    background-color: #5fa2fa;
+    height: fit-content;
+    text-align: center;
+}
+
+.reference ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.reference .referenceDiv{
+    background-color: #afd6ff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-height: fit-content;
+}
